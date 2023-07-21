@@ -26,6 +26,7 @@ def startQuiz(questions)
    
     if user_answer == question.answer
      score = score + 1
+      #  there is a bug ,because users can enter answers other than 'a' or 'b' or 'c'
  end 
  end    
   puts "You have scored #{score} / #{questions.length}"
